@@ -1,7 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
 header {
   height: 80px;
 }
 .penguine {
-  height: calc(100vh-80px);
+  /* height: calc(100vh-80); */
   background-color: red;
 }
